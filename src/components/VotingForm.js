@@ -60,6 +60,27 @@ const WorkoutForm = () => {
     boxSizing: "border-box",
   };
 
+  /*
+  <input
+            className="radio-input"
+            style={customInputStyle}
+            type="radio"
+            id="idol1"
+            name="idol"
+            value={process.env.REACT_APP_IDOL1}
+            checked={idol === process.env.REACT_APP_IDOL1}
+            onChange={(e) => setIdol(e.target.value)}
+          />
+          <label className="radio-label" htmlFor="idol1">
+            <Image
+              className="radio-image"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1684816022/Idol1_Huai_Nu_vzhgwf.jpg"
+              alt="idol1"
+            />
+
+            <span>{process.env.REACT_APP_IDOL1}</span>
+          </label> */
+
   return (
     <CloudinaryContext cloudName="dklygsuz7">
       <form className="voting" onSubmit={handleSubmit}>
@@ -254,26 +275,6 @@ const WorkoutForm = () => {
 
         <div className="vote">
           <label>Idol khat teel in:</label>
-
-          <input
-            className="radio-input"
-            style={customInputStyle}
-            type="radio"
-            id="idol1"
-            name="idol"
-            value={process.env.REACT_APP_IDOL1}
-            checked={idol === process.env.REACT_APP_IDOL1}
-            onChange={(e) => setIdol(e.target.value)}
-          />
-          <label className="radio-label" htmlFor="idol1">
-            <Image
-              className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1684816022/Idol1_Huai_Nu_vzhgwf.jpg"
-              alt="idol1"
-            />
-
-            <span>{process.env.REACT_APP_IDOL1}</span>
-          </label>
 
           <input
             className="radio-input"
