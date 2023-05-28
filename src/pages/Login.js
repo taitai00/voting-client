@@ -21,6 +21,7 @@ const Login = () => {
       <label>Organization:</label>
       <input
         type="text"
+        autoCapitalize="off"
         onChange={(e) => setCode(e.target.value)}
         value={code}
       />
@@ -28,6 +29,7 @@ const Login = () => {
       <label>Your Code:</label>
       <input
         type="text"
+        autoCapitalize="off"
         onChange={(e) => setOrgName(e.target.value)}
         value={orgName}
       />
