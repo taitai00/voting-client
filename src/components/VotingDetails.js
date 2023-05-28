@@ -73,7 +73,7 @@ const VotingDetails = ({ delegates }) => {
           style={customInputStyle}
           width="100%"
           height="400"
-          src="https://charts.mongodb.com/charts-project-0-ylzik/embed/charts?id=64652fdb-ed0b-4c57-8be6-439dc403e27b&maxDataAge=60&theme=light&autoRefresh=true"
+          src="https://charts.mongodb.com/charts-project-0-ylzik/embed/charts?id=64652fdb-ed0b-4c57-8be6-439dc403e27b&maxDataAge=1800&theme=light&autoRefresh=true"
         ></Iframe>
       </div>
       <div className="iframe-details">
@@ -81,7 +81,7 @@ const VotingDetails = ({ delegates }) => {
           style={customInputStyle}
           width="100%"
           height="400"
-          src="https://charts.mongodb.com/charts-project-0-ylzik/embed/charts?id=64653101-a657-4945-8244-58b171fef607&maxDataAge=60&theme=light&autoRefresh=true"
+          src="https://charts.mongodb.com/charts-project-0-ylzik/embed/charts?id=64653101-a657-4945-8244-58b171fef607&maxDataAge=1800&theme=light&autoRefresh=true"
         ></Iframe>
       </div>
     </>
