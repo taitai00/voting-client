@@ -300,6 +300,26 @@ const WorkoutForm = () => {
             className="radio-input"
             style={customInputStyle}
             type="radio"
+            id="idol1"
+            name="idol"
+            value={process.env.REACT_APP_IDOL1}
+            checked={idol === process.env.REACT_APP_IDOL1}
+            onChange={(e) => setIdol(e.target.value)}
+          />
+          <label className="radio-label" htmlFor="idol1">
+            <Image
+              className="radio-image"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520375/Niang_En_Lun_GA_ewwuzi.jpg"
+              alt="idol2"
+            />
+
+            <span>{process.env.REACT_APP_IDOL1}</span>
+          </label>
+
+          <input
+            className="radio-input"
+            style={customInputStyle}
+            type="radio"
             id="idol2"
             name="idol"
             value={process.env.REACT_APP_IDOL2}
@@ -309,11 +329,11 @@ const WorkoutForm = () => {
           <label className="radio-label" htmlFor="idol2">
             <Image
               className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520375/Niang_En_Lun_GA_ewwuzi.jpg"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520398/Grace_Cing_Dim_Lun_KY_op7zpy.jpg"
               alt="idol2"
             />
 
-            <span>{process.env.REACT_APP_IDOL2}</span>
+            <span>{process.env.REACT_APP_IDOL3}</span>
           </label>
 
           <input
@@ -329,11 +349,11 @@ const WorkoutForm = () => {
           <label className="radio-label" htmlFor="idol3">
             <Image
               className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520398/Grace_Cing_Dim_Lun_KY_op7zpy.jpg"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520438/Mang_Khai_OK_h8zzuf.jpg"
               alt="idol3"
             />
 
-            <span>{process.env.REACT_APP_IDOL3}</span>
+            <span>{process.env.REACT_APP_IDOL4}</span>
           </label>
 
           <input
@@ -349,11 +369,11 @@ const WorkoutForm = () => {
           <label className="radio-label" htmlFor="idol4">
             <Image
               className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520438/Mang_Khai_OK_h8zzuf.jpg"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520464/Cing_Khan_NUam_KY_arg74p.jpg"
               alt="idol4"
             />
 
-            <span>{process.env.REACT_APP_IDOL4}</span>
+            <span>{process.env.REACT_APP_IDOL5}</span>
           </label>
 
           <input
@@ -369,28 +389,8 @@ const WorkoutForm = () => {
           <label className="radio-label" htmlFor="idol5">
             <Image
               className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520464/Cing_Khan_NUam_KY_arg74p.jpg"
-              alt="idol5"
-            />
-
-            <span>{process.env.REACT_APP_IDOL5}</span>
-          </label>
-
-          <input
-            className="radio-input"
-            style={customInputStyle}
-            type="radio"
-            id="idol6"
-            name="idol"
-            value={process.env.REACT_APP_IDOL6}
-            checked={idol === process.env.REACT_APP_IDOL6}
-            onChange={(e) => setIdol(e.target.value)}
-          />
-          <label className="radio-label" htmlFor="idol6">
-            <Image
-              className="radio-image"
               publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520487/Man_San_Nuam_Niang_MD_wbtcpd.jpg"
-              alt="idol6"
+              alt="idol5"
             />
 
             <span>{process.env.REACT_APP_IDOL4}</span>
