@@ -101,7 +101,7 @@ const WorkoutForm = () => {
           <label className="radio-label" htmlFor="zotang1">
             <Image
               className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1684816022/ZoTaang1_Kham_Khan_Sing_mgmkm1.jpg"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716519962/Lian_Sut_Mung_OK_xdorel.jpg"
               alt="zotang1"
             />
 
@@ -121,7 +121,7 @@ const WorkoutForm = () => {
           <label className="radio-label" htmlFor="zotang2">
             <Image
               className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1684816022/ZoTaang2_Khup_Za_Muan_hq3wsz.jpg"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520549/Thang_Deih_Lian_NC_ngkjoa.jpg"
               alt="zotang2"
             />
 
@@ -141,7 +141,7 @@ const WorkoutForm = () => {
           <label className="radio-label" htmlFor="zotang3">
             <Image
               className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1684816022/ZoTaang3_Kham_Suan_Lian_kgsedl.jpg"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520597/Gin_Lian_Sum_OK_tyg3vo.jpg"
               alt="zotang3"
             />
 
@@ -161,7 +161,7 @@ const WorkoutForm = () => {
           <label className="radio-label" htmlFor="zotang4">
             <Image
               className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1684816023/ZoTaang4_Dal_Sian_Mang_oodfnk.jpg"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520348/Thang_Muan_Lian_Khai_GA_klboaz.jpg"
               alt="zotang4"
             />
 
@@ -181,7 +181,7 @@ const WorkoutForm = () => {
           <label className="radio-label" htmlFor="zotang5">
             <Image
               className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1684816023/ZoTaang5_Pau_Lun_Kim_vor4d8.jpg"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520319/Thang_Hau_Lam_Mang_GA_c96bfc.jpg"
               alt="zotang5"
             />
 
@@ -205,7 +205,7 @@ const WorkoutForm = () => {
           <label className="radio-label" htmlFor="zolia1">
             <Image
               className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1684816022/ZoLia1_Niang_Lam_Man_cdhrhp.jpg"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520252/Angel_No_Sian_Cing_OK_yfmdrg.jpg"
               alt="zoLia1"
             />
 
@@ -225,7 +225,7 @@ const WorkoutForm = () => {
           <label className="radio-label" htmlFor="zolia2">
             <Image
               className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1684816022/ZoLia2_Emily_Lian_s0qhoh.jpg"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520292/Cing_Huai_Kim_GA_v37awn.jpg"
               alt="zoLia2"
             />
 
@@ -245,7 +245,7 @@ const WorkoutForm = () => {
           <label className="radio-label" htmlFor="zolia3">
             <Image
               className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1684816022/ZoLia3_Nel_Sian_Dim_ghje0b.jpg"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520516/Cing_Deih_Nuam_NC_e4cho8.jpg"
               alt="zoLia3"
             />
 
@@ -265,11 +265,31 @@ const WorkoutForm = () => {
           <label className="radio-label" htmlFor="zolia4">
             <Image
               className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1684816022/Zolia4_Ciin_Sian_Dim_bhagvv.jpg"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520573/Hau_Ngaih_Cing_OK_jyrzwj.jpg"
               alt="zoLia4"
             />
 
             <span>{process.env.REACT_APP_ZOLIA4}</span>
+          </label>
+
+          <input
+            className="radio-input"
+            style={customInputStyle}
+            type="radio"
+            id="zolia5"
+            name="zolia"
+            value={process.env.REACT_APP_ZOLIA5}
+            checked={zolia === process.env.REACT_APP_ZOLIA5}
+            onChange={(e) => setZolia(e.target.value)}
+          />
+          <label className="radio-label" htmlFor="zolia5">
+            <Image
+              className="radio-image"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520627/Dim_San_Niang_IN_yazpwr.jpg"
+              alt="zoLia5"
+            />
+
+            <span>{process.env.REACT_APP_ZOLIA5}</span>
           </label>
         </div>
 
@@ -289,7 +309,7 @@ const WorkoutForm = () => {
           <label className="radio-label" htmlFor="idol2">
             <Image
               className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1684816022/Idol2_Thang_No_d33agp.jpg"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520375/Niang_En_Lun_GA_ewwuzi.jpg"
               alt="idol2"
             />
 
@@ -309,7 +329,7 @@ const WorkoutForm = () => {
           <label className="radio-label" htmlFor="idol3">
             <Image
               className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1684816022/Idol3_Bosco_Lian_jyyk9w.jpg"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520398/Grace_Cing_Dim_Lun_KY_op7zpy.jpg"
               alt="idol3"
             />
 
@@ -329,8 +349,48 @@ const WorkoutForm = () => {
           <label className="radio-label" htmlFor="idol4">
             <Image
               className="radio-image"
-              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1684816022/Idol4_Cing_Khan_Nuom_wpqbgn.jpg"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520438/Mang_Khai_OK_h8zzuf.jpg"
               alt="idol4"
+            />
+
+            <span>{process.env.REACT_APP_IDOL4}</span>
+          </label>
+
+          <input
+            className="radio-input"
+            style={customInputStyle}
+            type="radio"
+            id="idol5"
+            name="idol"
+            value={process.env.REACT_APP_IDOL5}
+            checked={idol === process.env.REACT_APP_IDOL5}
+            onChange={(e) => setIdol(e.target.value)}
+          />
+          <label className="radio-label" htmlFor="idol5">
+            <Image
+              className="radio-image"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520464/Cing_Khan_NUam_KY_arg74p.jpg"
+              alt="idol5"
+            />
+
+            <span>{process.env.REACT_APP_IDOL5}</span>
+          </label>
+
+          <input
+            className="radio-input"
+            style={customInputStyle}
+            type="radio"
+            id="idol6"
+            name="idol"
+            value={process.env.REACT_APP_IDOL6}
+            checked={idol === process.env.REACT_APP_IDOL6}
+            onChange={(e) => setIdol(e.target.value)}
+          />
+          <label className="radio-label" htmlFor="idol6">
+            <Image
+              className="radio-image"
+              publicId="https://res.cloudinary.com/dklygsuz7/image/upload/v1716520487/Man_San_Nuam_Niang_MD_wbtcpd.jpg"
+              alt="idol6"
             />
 
             <span>{process.env.REACT_APP_IDOL4}</span>
