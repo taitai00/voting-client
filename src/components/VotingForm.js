@@ -333,7 +333,7 @@ const WorkoutForm = () => {
               alt="idol2"
             />
 
-            <span>{process.env.REACT_APP_IDOL3}</span>
+            <span>{process.env.REACT_APP_IDOL2}</span>
           </label>
 
           <input
@@ -353,7 +353,7 @@ const WorkoutForm = () => {
               alt="idol3"
             />
 
-            <span>{process.env.REACT_APP_IDOL4}</span>
+            <span>{process.env.REACT_APP_IDOL3}</span>
           </label>
 
           <input
@@ -373,7 +373,7 @@ const WorkoutForm = () => {
               alt="idol4"
             />
 
-            <span>{process.env.REACT_APP_IDOL5}</span>
+            <span>{process.env.REACT_APP_IDOL4}</span>
           </label>
 
           <input
@@ -393,7 +393,7 @@ const WorkoutForm = () => {
               alt="idol5"
             />
 
-            <span>{process.env.REACT_APP_IDOL4}</span>
+            <span>{process.env.REACT_APP_IDOL5}</span>
           </label>
           <br />
         </div>
